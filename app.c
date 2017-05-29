@@ -3,5 +3,5 @@
 #include "src/utils.h"
 
 int main() {
-	ld_ps("Starting...");
+    ld_ps("Starting...");
 }
