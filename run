@@ -1,0 +1,5 @@
+gcc -c src/utils.c -o build/utils.o
+gcc -c src/prime_utilities.c -o build/prime_utilities.o
+gcc build/utils.o build/prime_utilities.o app.c -lgmpxx -lgmp -O3 -o app
+./app
+rm app
